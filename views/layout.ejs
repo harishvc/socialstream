@@ -1,0 +1,25 @@
+<!-- https://github.com/semmypurewal/node-talk-examples -->
+<html>
+
+  <head>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/javascripts/pie.js"></script> 
+    <script src="/javascripts/client-app.js"></script>
+    <script>
+    var socket = io.connect("http:localhost");
+    socket.on("update", function(data) {
+        $("#"+data.key).html(data.count); });
+    socket.on("stats", function(data) {
+        $("#"+data.key).html(data.count); });
+    socket.on("geo", function(data) {
+        $("#"+data.key).html(data.count); });
+     socket.on("time", function(data) {
+        $("#"+data.key).html(data.count); });
+    </script>
+  </head>
+  
+  <body>
+    <%- body %>
+  </body>
+</html>

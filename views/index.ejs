@@ -1,0 +1,20 @@
+<b>Social Stream</b> <br/>
+
+<p><b>Start</b>: <span id=start>WAITING</span></p>
+
+<p><b>Now</b>: <span id=now>WAITING</span></p>
+
+<p><b>Running time</b>: <span id=runningtime>WAITING</span></p>
+
+<% terms.forEach(function(term) { %>
+   <p><b><%= term %></b>: <span id='<%= term %>'>0</span></p>
+<% }); %>
+
+<p><b>Geo Tweets</b>: <span id=geototal>0</span></p>
+
+<p><b>Total tweets processed</b>: <span id=ttotal>0</span></p>
+
+<canvas id="pie" width="400" height="400"></canvas>
+
+<!-- Does not work! -->
+<button id='restart'>Restart Counts</button>
