@@ -13,7 +13,7 @@ Install Notes:
 
 5. Install necessary libraries (listed inside package.json)
 
-6. $>node app.js  //start web server
+6. node app.js  //start web server
 
 7. Visit http://localhost:3000 
 
@@ -23,4 +23,5 @@ Credit:
 
 Build on "canvas" example from https://github.com/semmypurewal/node-talk-examples 
 
-License: MIT
+License:
+Creative Common - Attribution + Noncommercial + ShareAlike 
