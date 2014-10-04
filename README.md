@@ -25,3 +25,5 @@ Build on "canvas" example from https://github.com/semmypurewal/node-talk-example
 
 License:
 Creative Common - Attribution + Noncommercial + ShareAlike 
+
+[![Analytics](https://ga-beacon.appspot.com/UA-55381661-1/socialstream/readme)](https://github.com/igrigorik/ga-beacon)
